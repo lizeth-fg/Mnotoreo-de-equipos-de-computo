@@ -1,0 +1,71 @@
+:root{
+	--fondocolor: #dedede;
+	--colorcfe: #005073;
+	--coloVerba: #0baa8a;
+	--coRoj: #b80909;
+	--icoTam: 30px;
+}
+/* tabla */
+th{
+	width: 25%;
+	font-size: 1em;
+	color: white;
+	background: var(--coloVerba);
+	border-radius: 5px;
+	padding: 10px;
+	flex-grow: 1;
+	margin: 10px;
+}
+td{
+	font-size: 1em;
+	color: black;
+	width: 25%;
+	border-radius: 5px;
+	padding: 10px;
+	flex-grow: 1;
+	margin: 10px;
+}
+#onlineTable td, #offlineTable td{
+	font-size: 1em;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+	flex-grow: 1;
+	margin: 10px;
+}
+table p{
+	margin: 0px;
+}
+tbody tr:hover{
+	background: white	;
+}
+tr{
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background: var(--fondocolor);
+	display: flex;
+	flex-wrap: wrap;
+}
+table {
+	border: 1px solid transparent;
+	width: 100%;
+	background: var(--fondocolor);
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+#onlineTable p{
+	color: var(--coloVerba);
+}
+#offlineTable p{
+	color: var(--coRoj);
+}
+b{
+	color: var(--colorcfe);
+}
+#bienvenida{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 20px;
+}
